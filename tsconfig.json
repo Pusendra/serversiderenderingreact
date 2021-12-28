@@ -1,0 +1,15 @@
+{
+
+    "compilerOptions": {
+    "allowJs": true,
+      "baseUrl": ".",
+      "esModuleInterop": true,
+      "jsx": "react",
+      "lib": ["dom", "es2019"],
+      "outDir": "dist",
+      "paths": {
+        "*": ["src/*", "src/@types/*"]
+      }
+    },
+    "include": ["src/*.tsx","src/*.js", "src/render.js"]
+  }
